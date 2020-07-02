@@ -204,4 +204,7 @@ PRODUCT_PACKAGES += \
 # Customization
 include vendor/google-customization/config.mk
 
+# Include Switch Styles
+include vendor/aosp/Switch/switch.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
