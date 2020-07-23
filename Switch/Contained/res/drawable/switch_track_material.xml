@@ -19,8 +19,11 @@
             <item android:gravity="fill_horizontal|center">
                 <shape android:shape="rectangle">
                     <corners android:radius="99.0dip"/>
-                    <solid android:color="?android:colorControlActivated"/>
-                    <size android:height="22.0dip"/>
+                    <solid android:color="@*android:color/transparent" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@*android:color/accent_device_default"/>
+                    <size android:height="20.0dip"/>
                 </shape>
             </item>
         </layer-list>
@@ -30,8 +33,11 @@
             <item android:gravity="fill_horizontal|center">
                 <shape android:shape="rectangle">
                     <corners android:radius="99.0dip"/>
-                    <solid android:color="@*android:color/switch_track_material"/>
-                    <size android:height="22.0dip"/>
+                    <solid android:color="@*android:color/transparent"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="@*android:color/switch_track_material"/>
+                    <size android:height="20.0dip"/>
                 </shape>
             </item>
         </layer-list>
@@ -41,8 +47,11 @@
             <item android:gravity="fill_horizontal|center">
                 <shape android:shape="rectangle">
                     <corners android:radius="99.0dip"/>
-                    <solid android:color="?android:colorControlActivated"/>
-                    <size android:height="22.0dip"/>
+                    <solid android:color="@*android:color/transparent"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="@*android:color/accent_device_default"/>
+                    <size android:height="20.0dip"/>
                 </shape>
             </item>
         </layer-list>
@@ -52,8 +61,11 @@
             <item android:gravity="fill_horizontal|center">
                 <shape android:shape="rectangle">
                     <corners android:radius="99.0dip"/>
-                    <solid android:color="@*android:color/switch_track_material"/>
-                    <size android:height="22.0dip"/>
+                    <solid android:color="@*android:color/transparent"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="@*android:color/switch_track_material"/>
+                    <size android:height="20.0dip"/>
                 </shape>
             </item>
         </layer-list>
